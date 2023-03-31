@@ -1,0 +1,13 @@
+Resources:
+
+  EC2Instance:
+
+    Type: AWS::EC2::Instance
+
+    Properties:
+
+      ImageId: i-046230af640fe8d0b
+
+      InstanceType: t2.micro
+
+      KeyName: N.EC2
